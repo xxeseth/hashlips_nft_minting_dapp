@@ -127,7 +127,7 @@ function App() {
     let totalGasLimit = String(gasLimit * mintAmount);
     console.log("Cost: ", totalCostWei);
     console.log("Gas limit: ", totalGasLimit);
-    setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
+    setFeedback(`${CONFIG.NFT_NAME} cumming...`);
     setClaimingNft(true);
     blockchain.smartContract.methods
       .mint(mintAmount)
@@ -139,13 +139,13 @@ function App() {
       })
       .once("error", (err) => {
         console.log(err);
-        setFeedback("Sorry, something went wrong please try again later.");
+        setFeedback("Sorry, something went wrong please try and CUMM again later.");
         setClaimingNft(false);
       })
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`
+          `the ${CONFIG.NFT_NAME} CUMM.`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
