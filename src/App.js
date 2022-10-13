@@ -145,7 +145,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `the ${CONFIG.NFT_NAME} CUMM.`
+          `the ${CONFIG.NFT_NAME} CUMMed.`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
