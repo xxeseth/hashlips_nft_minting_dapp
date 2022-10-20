@@ -11,7 +11,7 @@
   "MAX_SUPPLY": 6969,
   "WEI_COST": 6900000000000000,
   "DISPLAY_COST": 0.0069,
-  "GAS_LIMIT": 210000,
+  "GAS_LIMIT": 240000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/cryptosquidsnfts",
   "SHOW_BACKGROUND": true
