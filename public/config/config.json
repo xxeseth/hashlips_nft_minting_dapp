@@ -6,12 +6,12 @@
     "SYMBOL": "ETH",
     "ID": 1
   },
-  "NFT_NAME": "CryptoSquidz",
+  "NFT_NAME": "CryptoSquids",
   "SYMBOL": "CUMM",
   "MAX_SUPPLY": 6969,
   "WEI_COST": 0,
   "DISPLAY_COST": 0,
-  "GAS_LIMIT": 240000,
+  "GAS_LIMIT": 210069,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/cryptosquidsnfts",
   "SHOW_BACKGROUND": true
